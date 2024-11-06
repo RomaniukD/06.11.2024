@@ -1,0 +1,84 @@
+/*
+ Zastosuj na różne sposoby:
+1    Wielkość
+2    Krój,
+3    Kolor,
+4    transform,
+5    style,
+6    odstępy między znakami,
+7    wyrównanie,
+8    dekorację,
+9    wysokość od wierszy
+
+*/
+
+html,
+body {
+    margin: 0;
+}
+
+header p {
+    margin-top: 0;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(10, 26, 20);
+    color: aqua;
+}
+
+body {
+    font-size: 18px;
+    background-color: rgb(187, 153, 153);
+}
+
+p {
+    border: 1px solid black;
+    margin-top: 3em;
+}
+
+/* Wielkość */
+#p1 {
+    font-size: xx-large;
+}
+
+/* Krój */
+#p2 {
+    font-family: monospace;
+}
+
+/* Kolor */
+#p3 {
+color: red;
+}
+
+/* transform */
+#p4 {
+    text-transform: uppercase;
+}
+
+/* style */
+#p5 {
+    font-style: italic;
+}
+
+/* odstępy między znakami */
+#p6 {
+    letter-spacing: 1,5em;
+}
+
+/* wyrównanie */
+#p7 {
+    text-align: center;
+}
+
+/* dekoracje */
+#p8 {
+    text-decoration: line-through;
+}
+
+
+/* wysokość od wierszy */
+#p9 {
+    line-height: 15em;
+}
